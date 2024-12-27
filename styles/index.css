@@ -1,0 +1,40 @@
+
+
+#nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    background-color:cadetblue;
+    /* color: aliceblue; */
+}
+#nav>a{
+    color: aliceblue;
+    text-decoration: none;
+}
+#body>h1{
+   display: flex;
+   justify-content: center;
+   
+}
+
+form, #signup{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: center
+}
+
+ 
+
+
+
+
+
+
+
+#footer{
+  position: absolute;
+  bottom: 0;
+}
