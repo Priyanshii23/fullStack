@@ -17,6 +17,18 @@
    justify-content: center;
    
 }
+div>a{
+    float: right;
+    text-decoration: none;
+    color: blueviolet;
+    font-size: larger;
+    margin-right: 10px;
+
+}
+div>a:hover{
+    cursor: pointer;
+    color: black;
+}
 
 form, #signup{
     display: flex;
@@ -26,6 +38,16 @@ form, #signup{
     align-items: center
 }
 
+/* login page */
+
+#loginPage{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    
+    /* width: 50%; */
+}
  
 
 
